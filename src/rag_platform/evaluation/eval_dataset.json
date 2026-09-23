@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How many days do I have to return a standard order for a full refund?",
+    "ground_truth_answer": "Standard orders are eligible for a full refund within 30 days of delivery, provided the item is returned in its original condition with all packaging intact.",
+    "ground_truth_doc_ids": ["refund_policy"]
+  },
+  {
+    "question": "Can I get a refund on a gift card after I've redeemed it?",
+    "ground_truth_answer": "No. Digital goods including gift cards are non-refundable once the activation code has been redeemed.",
+    "ground_truth_doc_ids": ["refund_policy"]
+  },
+  {
+    "question": "What do I need to do if my flowers arrived damaged?",
+    "ground_truth_answer": "You must report the damage within 48 hours of delivery along with photographic evidence to qualify for a refund on perishable goods.",
+    "ground_truth_doc_ids": ["refund_policy"]
+  },
+  {
+    "question": "Does cancelling my subscription automatically refund the current billing period?",
+    "ground_truth_answer": "No, cancelling stops future billing but does not automatically refund the current period, unless the cancellation is due to a service outage lasting more than 24 continuous hours.",
+    "ground_truth_doc_ids": ["refund_policy"]
+  },
+  {
+    "question": "How much do I need to spend to get free standard shipping?",
+    "ground_truth_answer": "Orders over $75 qualify for free standard shipping automatically at checkout.",
+    "ground_truth_doc_ids": ["shipping_policy"]
+  },
+  {
+    "question": "My package shows as delivered but I never received it, what should I do?",
+    "ground_truth_answer": "You should report it within 7 days of the delivered status; after that window the carrier's liability closes and a replacement or refund cannot be guaranteed.",
+    "ground_truth_doc_ids": ["shipping_policy"]
+  },
+  {
+    "question": "Can I change my shipping address after I place an order?",
+    "ground_truth_answer": "Address changes can only be made before the order enters the processing stage; once it is marked processing, the address is locked and cannot be modified.",
+    "ground_truth_doc_ids": ["shipping_policy"]
+  },
+  {
+    "question": "When is two-factor authentication required on my account?",
+    "ground_truth_answer": "2FA is required for accounts holding a stored balance above $500, and withdrawal actions are restricted until it is configured.",
+    "ground_truth_doc_ids": ["account_security_policy"]
+  },
+  {
+    "question": "What happens to my data if I delete my account?",
+    "ground_truth_answer": "The account enters a 30-day recovery window during which it can be restored; after 30 days all data including order history and payment methods is permanently deleted.",
+    "ground_truth_doc_ids": ["account_security_policy"]
+  },
+  {
+    "question": "How often do third-party API keys need to be rotated?",
+    "ground_truth_answer": "API keys follow a 90-day rotation policy and must be regenerated manually, with no reminder sent before expiry.",
+    "ground_truth_doc_ids": ["account_security_policy"]
+  }
+]

@@ -1,0 +1,28 @@
+Shipping Policy
+
+Standard shipping within the continental service area takes 3 to 5 business
+days from the time an order is confirmed. Expedited shipping, available for
+an additional fee, reduces this window to 1 to 2 business days for orders
+placed before 2 PM local time on a business day.
+
+Orders over $75 qualify for free standard shipping automatically at
+checkout; no promo code is required. This threshold does not apply to
+expedited or international shipping options, which are always charged at
+the listed rate regardless of order total.
+
+Once an order has shipped, customers receive a tracking link by email.
+Packages that show as delivered but were not received by the customer
+should be reported within 7 days; after this window, the carrier's
+liability window closes and the platform cannot guarantee a replacement
+or refund for the missing package.
+
+Shipping delays caused by weather, customs holds, or carrier disruptions
+are outside the platform's control and do not qualify for automatic
+compensation. However, if a delay exceeds 10 business days beyond the
+original estimate, customers may request a shipping fee refund by
+contacting support with their order number.
+
+Address changes can only be made before an order enters the "processing"
+stage in the fulfillment system. Once an order is marked as processing,
+the shipping address is locked and cannot be modified, even if the
+customer contacts support immediately.

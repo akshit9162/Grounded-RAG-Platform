@@ -1,0 +1,30 @@
+Account Security Policy
+
+All accounts are required to use a password of at least 10 characters,
+including at least one number and one symbol. Passwords are hashed using
+a salted algorithm before storage; the platform never stores or can
+retrieve a user's plaintext password under any circumstance.
+
+Two-factor authentication (2FA) can be enabled from the security settings
+page using either an authenticator app or SMS. Accounts handling payment
+information above $500 in stored balance are required to enable 2FA; the
+platform will restrict withdrawal actions on such accounts until 2FA is
+configured.
+
+If suspicious login activity is detected, such as a login from a new
+device in a different country within a short time window, the account is
+automatically locked and the user is notified by email and, if configured,
+SMS. The account owner must verify their identity through a support ticket
+before the lock is lifted; this process typically takes 1 to 3 business
+days.
+
+Session tokens expire after 30 days of inactivity, or immediately upon a
+password change, which logs the user out of all active sessions on every
+device. API keys issued for third-party integrations follow a separate
+90-day rotation policy and must be regenerated manually; the platform does
+not send a reminder before an API key expires.
+
+Deleted accounts enter a 30-day recovery window during which the account
+can be restored by contacting support. After 30 days, all associated data,
+including order history and stored payment methods, is permanently and
+irreversibly deleted in compliance with data retention regulations.

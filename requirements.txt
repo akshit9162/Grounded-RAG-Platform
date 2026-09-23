@@ -1,0 +1,22 @@
+# --- Core (needed to run the demo/tests with zero external services) ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+numpy==1.26.4
+scikit-learn==1.5.2
+rank-bm25==0.2.2
+anthropic==0.34.2
+python-dotenv==1.0.1
+
+# --- Production swap-ins (install when moving beyond the local demo) ---
+sentence-transformers==3.1.1   # real embeddings + cross-encoder reranker
+qdrant-client==1.11.0          # production vector store
+redis==5.0.8                   # production semantic cache
+kafka-python==2.0.2            # production ingestion transport
+ragas==0.1.21                  # real evaluation metrics
+datasets==2.21.0               # required by ragas
+openai==1.51.0                 # only needed if using VLLMClient (OpenAI-compatible client)
+
+# --- Dev/test ---
+pytest==8.3.3
+httpx==0.27.2

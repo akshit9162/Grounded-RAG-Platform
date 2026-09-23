@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+venv/
+data/traces.jsonl
+data/demo_results.json
+data/eval_results.json
